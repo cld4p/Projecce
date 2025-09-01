@@ -6,8 +6,8 @@ class Player:
         self.maxHealth=maxHealth
         self.armor=armor
 
-    def reduceHealth(self,hit):
-        self.health-=hit*15//self.armor
+    def reduceHealth(victim,attacker):
+       victim.health-=attacker.damage*15//victim.armor
     
     def healHealth(self,heal):
         self.health+=heal-max(0,self.health-self.maxHealth)

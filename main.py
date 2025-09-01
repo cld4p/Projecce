@@ -8,7 +8,15 @@ jil=Player(
     armor=30
 )
 
-Player.reduceHealth(jil,40)
+claws=Player(
+    health=40,
+    damage=60,
+    maxHealth=40,
+    armor=20
+)
+
+
+Player.reduceHealth(jil,claws)
 
 Player.showHealth(jil)
 
