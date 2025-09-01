@@ -14,8 +14,9 @@ class Player:
 
     def showHealth(self):
         print("Health: ",self.health,"/",self.maxHealth,",Armor: ",self.armor)
-
-
+    
+    def setArmor(self,armorAmount):
+        self.armor=armorAmount
 
 
 
