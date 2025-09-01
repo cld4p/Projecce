@@ -20,5 +20,5 @@ Player.reduceHealth(jil,claws)
 
 Player.showHealth(jil)
 
-
+Player.reduceHealth(claws,20)
 
