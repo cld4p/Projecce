@@ -18,7 +18,11 @@ class Player:
     def setArmor(self,armorAmount):
         self.armor=armorAmount
 
-
+    def setMaxHealth(self,setHealth):
+        self.maxHealth=setHealth
+    
+    def setDamage(self,damageamt):
+        self.damage=damageamt
 
 
 
